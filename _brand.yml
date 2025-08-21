@@ -17,24 +17,14 @@ logo:
 color:
   palette:
     white: "#FEFEFE"
-    black: "#000000"
-    blue: "#1A5175" # Taken from the darker blue in the logo
-    light-blue: "#1C5277"
-    green: "#93E102" # Taken from the green bar in the chart
-    yellow: "#FFFF10" # Taken from the yellow bar in the chart
-    orange: "#FFD703" # Used to complement the chart colors
-    red: "#FFA905"
-
-  foreground: black # Main text color
+    yellow: "#93E101"
+    cyan: "#3486AE"
+    gray: "#7293A9"
   background: white # Main background color
-  primary: blue # Main accent color
-  secondary: light-blue # Secondary accent color
-  success: green # Positive action color
-  warning: orange # Warning color
-  danger: red # Danger color, complementary red
-  info: light-blue # Informational color
+  primary: yellow # Warning color
   light: white # Bright contrast color for dark backgrounds
-  dark: black # Dark contrast color for light backgrounds
+  secondary: cyan
+
 
 typography:
   fonts:
