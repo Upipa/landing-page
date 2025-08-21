@@ -7,17 +7,12 @@ meta:
 
 logo:
   images:
-    header: logos/logo-header.png # Placeholder path for the header logo
+    icon: logos/islab-logo.png
     full:
-#      path: logos/logo-full.svg # Placeholder path for the full logo
-      path: logos/logo-full.png
-      alt: IndicareSaluteLab logo featuring a bar chart and dynamic blue elements
-  small: logos/logo-small.png # Placeholder path for a small logo, icon-sized
-  medium: header
-    # light: logos/logo-medium-light.png # Placeholder for light background usage
-    # dark: logos/logo-medium-dark.png # Placeholder for dark background usage
+      path: logos/islab-logo-full.png
+  small: icon
+  medium: full
   large: full
-  # logos/logo-large.png # Placeholder path for a large logo
 
 color:
   palette:
