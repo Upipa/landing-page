@@ -1,7 +1,65 @@
----
-title: "landing-page"
----
+```{r}
+#| label: setup
+#| include: false
 
-This is a Quarto website.
+library(tidyverse)
+library(DBI)
+library(odbc)
+library(shiny)
+library(bslib)
+library(bsicons)
+```
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+```{r}
+
+con <- dbConnect(
+  odbc(),
+  driver = 'ODBC Driver 18 for SQL Server',
+  server = "upipa-acs.database.windows.net",
+  database = "IndicareSaluteLab",
+  uid = Sys.getenv("UID"),
+  pwd = Sys.getenv("PWD")
+)
+```
+
+```{r}
+#| column: page
+
+n_enti <- tbl(con, "indicare_salute") |>
+  filter(anno == year(today())) |>
+  summarise(enti = n_distinct(ente)) |>
+  pull(enti)
+
+n_aree <- tbl(con, "indicare_salute") |>
+  filter(anno == year(today())) |>
+  collect() |>
+  mutate(area = str_extract(indicatore, "\\d")) |>
+  summarise(aree = n_distinct(area))
+
+n_indicatori <- tbl(con, "indicare_salute") |>
+  filter(anno == year(today())) |>
+  summarise(indicatori = n_distinct(indicatore)) |>
+  pull(indicatori)
+
+layout_columns(
+  value_box(
+    "Enti",
+    n_enti,
+    showcase = bs_icon("buildings"),
+    theme = "primary"
+  ),
+  value_box(
+    "Aree",
+    n_aree,
+    showcase = bs_icon("grid"),
+    theme = "primary"
+  ),
+  value_box(
+    "Indicatori",
+    n_indicatori,
+    showcase = bs_icon("bar-chart"),
+    theme = "primary"
+  )
+)
+
+```

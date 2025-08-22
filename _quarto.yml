@@ -2,20 +2,27 @@ project:
   type: website
   output-dir: docs
 
+brand:
+  light: light-brand.yml
+  dark: dark-brand.yml
+
 website:
-  title: "Indicare Salute"
+  title: "Indicare Salute Lab"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - text: Home
+        href: index.qmd
       - about.qmd
 
 format:
   html:
-    theme:
-      - brand
     css: styles.css
     toc: true
+    lang: it
+    respect-user-color-scheme: true
+
+execute:
+  echo: false
 
 
 
