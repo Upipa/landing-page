@@ -1,0 +1,51 @@
+meta:
+  name:
+    short: IndicareSaluteLab
+    full: IndicareSaluteLab Service by Upipa
+  link:
+    home: https://www.upipa.tn.it # Placeholder link for the company homepage
+
+logo:
+  images:
+    icon: logos/islab-logo.png
+    full:
+      path: logos/islab-logo-full.png
+  small: icon
+  medium: full
+  large: full
+
+color:
+  palette:
+    white: "#FEFEFE"
+    yellow: "#93E101"
+    cyan: "#3486AE"
+    gray: "#7293A9"
+  background: white # Main background color
+  primary: cyan # Warning color
+  light: white # Bright contrast color for dark backgrounds
+  secondary: yellow
+
+
+typography:
+  fonts:
+    - family: Open Sans
+      source: google
+      weight: [400, 600, 700]
+      style: [normal, italic]
+    - family: Roboto Slab
+      source: google
+      weight: [400, 700]
+      style: [normal]
+  base:
+    family: Open Sans
+    weight: 400
+  headings:
+    family: Roboto Slab
+    weight: 700
+    color: primary
+  monospace:
+    family: Fira Code
+    weight: 400
+  link:
+    color: blue
+    decoration: underline

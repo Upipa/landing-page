@@ -20,10 +20,11 @@ color:
     yellow: "#93E101"
     cyan: "#3486AE"
     gray: "#7293A9"
-  background: white # Main background color
-  primary: yellow # Warning color
+  background: "#000000" # Main background color
+  foreground: white
+  primary: cyan # Warning color
   light: white # Bright contrast color for dark backgrounds
-  secondary: cyan
+  secondary: yellow
 
 
 typography:
