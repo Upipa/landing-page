@@ -1,3 +1,20 @@
+---
+format:
+  html: 
+    include-in-header: 
+      - text: |
+          <style>
+            body {
+              padding-top: 0 !important;
+            }
+          </style>
+listing:
+  id: esperienze
+  contents: esperienze
+---
+
+![](/img/main-slider-1.jpg){.column-screen}
+
 ```{r}
 #| label: setup
 #| include: false
@@ -19,6 +36,28 @@ con <- dbConnect(
   database = "IndicareSaluteLab",
   uid = Sys.getenv("UID"),
   pwd = Sys.getenv("PWD")
+)
+```
+
+```{r}
+#| column: page
+
+layout_columns(
+  value_box(
+    "Obiettivo",
+    "Misurare per migliorare",
+    showcase = bs_icon("bullseye")
+  ),
+  value_box(
+    "Strumento",
+    "Sistema di indicatori per il Long Term Care",
+    showcase = bs_icon("tools")
+  ),
+  value_box(
+    "Partecipanti",
+    "Per tutte le strutture Long Term Care",
+    showcase = bs_icon("people")
+  )
 )
 ```
 
@@ -63,3 +102,12 @@ layout_columns(
 )
 
 ```
+
+::: {.text-center}
+Da esperienze di eccellenza per un unico progetto:
+:::
+
+## **indiCARE salute** {.text-center}
+
+::: {#esperienze}
+:::
