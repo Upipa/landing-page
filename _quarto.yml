@@ -17,7 +17,6 @@ website:
 format:
   html:
     css: styles.css
-    toc: true
     lang: it
     respect-user-color-scheme: true
 
