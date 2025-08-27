@@ -17,6 +17,17 @@ website:
       - icon: box-arrow-in-left
         text: Accedi alla piattaforma
         href: https://upipa.shinyapps.io/IndicareSalute2/
+  page-footer:
+    left:
+      - icon: person-lines-fill
+        text: "+39 0461 39.00.25<br>indicaresalutelab@upipa.tn.it"
+    center:
+      - icon: geo-alt
+        text: "Via Sighele, 7<br>38122 TRENTO"
+    right:
+      - icon: clock
+        text: "09:00 - 13:00<br>Lunerdì - Venerdì"
+        
 
 format:
   html:
