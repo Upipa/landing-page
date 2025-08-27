@@ -17,8 +17,8 @@ logo:
 color:
   palette:
     white: "#FEFEFE"
-    yellow: "#93E101"
-    cyan: "#3486AE"
+    yellow: "#3F6100"
+    cyan: "#255E7A"
     gray: "#7293A9"
   background: white # Main background color
   primary: cyan # Warning color

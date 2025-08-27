@@ -18,7 +18,7 @@ color:
   palette:
     white: "#FEFEFE"
     yellow: "#93E101"
-    cyan: "#3486AE"
+    cyan: "#3FA0D1"
     gray: "#7293A9"
   background: "#000000" # Main background color
   foreground: white
