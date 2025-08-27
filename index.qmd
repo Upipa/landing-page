@@ -8,9 +8,6 @@ format:
               padding-top: 0 !important;
             }
           </style>
-listing:
-  id: esperienze
-  contents: esperienze
 ---
 
 ![](/img/main-slider-1.jpg){.column-screen}
@@ -103,11 +100,14 @@ layout_columns(
 
 ```
 
-::: {.text-center}
+::: text-center
 Da esperienze di eccellenza per un unico progetto:
 :::
 
 ## **indiCARE salute** {.text-center}
 
-::: {#esperienze}
+::: {layout-ncol="2"}
+[![U.P.I.P.A. Unione Provinciale Istituzioni per l'Assistenza](images/paste-2.png)](https://www.upipa.tn.it/Chi-siamo/Chi-siamo/Storia)
+
+[![A.p.s.p. Residenza Valle dei Laghi](images/paste-1.png){width="100%"}](https://www.residenzavalledeilaghi.it/Azienda/Chi-siamo)
 :::
