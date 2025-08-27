@@ -12,6 +12,8 @@ format:
 
 ![](/img/main-slider-1.jpg){.column-screen}
 
+:::: {.column-screen-inset}
+
 ```{r}
 #| label: setup
 #| include: false
@@ -37,7 +39,6 @@ con <- dbConnect(
 ```
 
 ```{r}
-#| column: page
 
 layout_columns(
   value_box(
@@ -59,7 +60,6 @@ layout_columns(
 ```
 
 ```{r}
-#| column: page
 
 n_enti <- tbl(con, "indicare_salute") |>
   filter(anno == year(today())) |>
@@ -111,3 +111,5 @@ Da esperienze di eccellenza per un unico progetto:
 
 [![A.p.s.p. Residenza Valle dei Laghi](images/paste-1.png){width="100%"}](https://www.residenzavalledeilaghi.it/Azienda/Chi-siamo)
 :::
+
+::::

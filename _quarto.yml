@@ -13,6 +13,10 @@ website:
       - text: Home
         href: index.qmd
       - about.qmd
+    tools:
+      - icon: box-arrow-in-left
+        text: Accedi alla piattaforma
+        href: https://upipa.shinyapps.io/IndicareSalute2/
 
 format:
   html:
