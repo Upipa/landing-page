@@ -27,6 +27,7 @@ website:
     right:
       - icon: clock
         text: "09:00 - 13:00<br>Lunerdì - Venerdì"
+  search: false
         
 
 format:
