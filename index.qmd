@@ -44,7 +44,7 @@ layout_columns(
   value_box(
     "Obiettivo",
     "Misurare per migliorare",
-    showcase = icon("flag-checkered")
+    showcase = bs_icon("flag")
   ),
   value_box(
     "Strumento",
@@ -93,7 +93,7 @@ layout_columns(
   value_box(
     "Indicatori",
     n_indicatori,
-    showcase = icon("graph-up"),
+    showcase = bs_icon("graph-up"),
     theme = "primary"
   )
 )

@@ -40,5 +40,58 @@ Attraverso analisi condivise e strumenti di lettura sempre più efficaci, *IndiC
 
 ```{r}
 library(shiny)
+library(bsicons)
+library(bslib)
+```
+
+```{r}
+
 actionLink("contattaci", "Contattaci", icon = icon("angle-right"))
 ```
+
+::: text-center
+```{r}
+bs_icon("arrow-down")
+```
+
+Al fine di assicurare la validità e la rigorosità del progetto, è stato nominato un comitato scientifico, organo di riferimento per gli aspetti scientifici e metodologici.
+
+## Comitato scientifico
+
+```{r}
+
+layout_column_wrap(
+    accordion(
+        accordion_panel(
+            "Dott.ssa Eleonora Negri",
+            "Responsabile Servizio Formazione, Ricerca e Sviluppo di U.p.i.p.a."
+        ),
+        accordion_panel(
+            "Dott. Emanuele Torri",
+            "Coordinatore della commissione per l’accreditamento, Dipartimento lavoro e welfare - Assessorato alla Salute e Politiche Sociali - Provincia Autonoma di Trento."
+        ),
+        open = FALSE
+    ),
+    accordion(
+        accordion_panel(
+            "Dott. Marco Pagani",
+            "Medico specializzato in geriatria e gerontologia, e in medicina fisica e riabilitazione, geriatra per l’Istituto clinico Humanitas di Rozzano."
+        ),
+        accordion_panel(
+            "Dott. Massimo Giordani",
+            "Direttore generale di U.p.i.p.a."
+        ),
+        open = FALSE
+    ),
+    accordion(
+        accordion_panel(
+            "Dott.ssa Donatella Visentin",
+            "Dirigente medico, Dipartimento di Prevenzione in posizione di comando presso il Dipartimento
+Salute e Politiche sociali della Provincia Autonoma di Trento"
+        ),
+        open = FALSE
+    ),
+    width = 1 / 3
+)
+```
+:::
