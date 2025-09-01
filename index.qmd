@@ -10,7 +10,7 @@ format:
           </style>
 ---
 
-![](/img/main-slider-1.jpg){.column-screen}
+![](/images/main-slider-1.jpg){.column-screen}
 
 :::: {.column-screen-inset}
 
@@ -44,7 +44,7 @@ layout_columns(
   value_box(
     "Obiettivo",
     "Misurare per migliorare",
-    showcase = bs_icon("bullseye")
+    showcase = icon("flag-checkered")
   ),
   value_box(
     "Strumento",
@@ -54,7 +54,7 @@ layout_columns(
   value_box(
     "Partecipanti",
     "Per tutte le strutture Long Term Care",
-    showcase = bs_icon("people")
+    showcase = bs_icon("building")
   )
 )
 ```
@@ -81,19 +81,19 @@ layout_columns(
   value_box(
     "Enti",
     n_enti,
-    showcase = bs_icon("buildings"),
+    showcase = bs_icon("people"),
     theme = "primary"
   ),
   value_box(
     "Aree",
     n_aree,
-    showcase = bs_icon("grid"),
+    showcase = bs_icon("diagram-2"),
     theme = "primary"
   ),
   value_box(
     "Indicatori",
     n_indicatori,
-    showcase = bs_icon("bar-chart"),
+    showcase = icon("graph-up"),
     theme = "primary"
   )
 )

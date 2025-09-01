@@ -19,7 +19,7 @@ website:
         href: https://upipa.shinyapps.io/IndicareSalute2/
   page-footer:
     left:
-      - icon: person-lines-fill
+      - icon: telephone
         text: "+39 0461 39.00.25<br>indicaresalutelab@upipa.tn.it"
     center:
       - icon: geo-alt
