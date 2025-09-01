@@ -106,10 +106,7 @@ Da esperienze di eccellenza per un unico progetto:
 
 ## **indiCARE salute** {.text-center}
 
-::: {layout-ncol="2"}
 [![U.P.I.P.A. Unione Provinciale Istituzioni per l'Assistenza](images/paste-2.png)](https://www.upipa.tn.it/Chi-siamo/Chi-siamo/Storia)
 
-[![A.p.s.p. Residenza Valle dei Laghi](images/paste-1.png){width="100%"}](https://www.residenzavalledeilaghi.it/Azienda/Chi-siamo)
-:::
 
 ::::
