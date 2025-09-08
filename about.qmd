@@ -1,10 +1,12 @@
 ---
-title: "Chi siamo"
-about:
-    template: marquee
 image: images/bg_chisiamo.jpg
 ---
 
+![](images/bg_chisiamo.jpg){.column-screen}
+
+:::: column-page
+
+## Chi siamo
 Il progetto *IndiCARE Salute*, promosso da U.P.I.P.A. nel 2014, è nato con l’obiettivo di introdurre nelle strutture associate sistemi di qualità orientati al miglioramento continuo.\
 
 Gli strumenti principali sono:
@@ -86,3 +88,4 @@ Salute e Politiche sociali della Provincia Autonoma di Trento"
 )
 ```
 :::
+::::
