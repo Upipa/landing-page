@@ -1,0 +1,85 @@
+![](images/bg_progetto.jpg){.column-screen}
+
+INDICATORI E STRUMENTI DI GOVERNANCE CLINICO ASSISTENZIALE e la qualità della presa in carico
+
+## **PREMESSA**
+
+Perché parlare di governance clinico-assistenziale in RSA?
+
+La definizione di *Clinical Governance* per la prima volta proposta è quella di G. Scally e L.J. Donaldson comparsa nel 1998 sulla rivista scientifica British Medical Journal: *“La Clinical Governance è un sistema attraverso cui le organizzazioni sanitarie sono responsabili del continuo miglioramento della qualità dei loro servizi e della salvaguardia di elevati standard di assistenza attraverso la creazione di un ambiente in cui possa svilupparsi l’eccellenza dell’assistenza sanitaria“.*
+
+Il significato concettuale di *clinical governance* è quindi un nuovo modo di gestire e governare le attività, che poggia su quattro aspetti fondamentali: **la responsabilità, la trasparenza, il coinvolgimento e la partecipazione, l’etica e valore del lavoro.**
+
+Gli obiettivi della *clinical governance* nelle organizzazioni sanitarie sono l’ottimizzazione e l’economicità delle risorse, del loro utilizzo e il conseguente abbattimento delle diseconomie unitamente al miglioramento continuo delle prestazioni e alla soddisfazione dell’assistito (Customer Satisfaction).
+
+Per le RSA la richiesta di attivare un governo dei processi organizzativi è presente nelle liste per l’accreditamento istituzionale della PAT; infatti, nella lista ORG – punto 5, si parla di monitoraggio dei processi e dei risultati, ed in particolare di report sistematici e di monitoraggio periodico delle attività svolte all’interno dell’organizzazione (5.1.a). Per tutti i processi è anche richiesta l’identificazione di procedure, responsabilità, e periodicità delle valutazioni, nonché l’identificazione dei soggetti destinatari di tali informazioni e delle modalità con le quali i risultati sono rappresentati (coinvolgimento e partecipazione).
+
+Sempre in merito al concetto di coinvolgimento, le liste di accreditamento istituzionale per l’erogazione del servizio di RSA richiedono, inoltre, che le opinioni degli utenti, relativamente a bisogni, priorità e soddisfazione rispetto a prestazioni/servizi ricevuti, siano periodicamente rilevate (ORG 5.3).
+
+In linea con il concetto di governance, l’accreditamento prevede anche l’adozione da parte dell’organizzazione di indicatori clinici finalizzati a valutare l’esito dei processi assistenziali sulla salute dei pazienti (ORG 5.4); in tal senso è richiesta una raccolta dati per il calcolo degli indicatori. La finalità di fondo è quella di mantenere e migliorare il livello di salute dei cittadini. Con riferimento a tale obiettivo le organizzazioni, che operano nell’ambito del servizio sanitario, sono chiamate a valutare l’impatto delle proprie attività sulla salute degli utenti. Inoltre, è necessario esplicitare le modalità attraverso le quali tali indicatori vengano poi utilizzati per la valutazione periodica dei processi assistenziali, e per l’eventuale attivazione di interventi correttivi.
+
+Anche nei nuovi requisiti predisposti dall’AGENAS (giugno 2015) quale “Proposta di modello per l’accreditamento istituzionale delle strutture di assistenza territoriale extra-ospedaliera”, su mandato della Conferenza Stato Regioni e Autonomie Locali del 19 febbraio 2015, che dovranno essere recepiti anche dalla Provincia Autonoma di Trento, si sottolinea l’importanza delle attività di monitoraggio e di valutazione; in particolare, nel requisito 2°1.2.3 si afferma che *“l’organizzazione ha selezionato gli indicatori chiave per la valutazione della performance clinico-assistenziale riabilitativa, tenendo conto della scienza e della “evidenza” a supporto di ogni singolo indicatore”.*
+
+Nella complessità di dati che ogni ente si trova a raccogliere e gestire, la sfida è quella di individuare le informazioni più utili, nei tempi più congrui, per rendere il sistema di monitoraggio di qualità, efficiente, efficace e dinamico. Ciò anche al fine di coniugare l’economicità nell’impiego delle risorse, l’abbattimento delle diseconomie ed il miglioramento continuo delle prestazioni e la soddisfazione dell’assistito.
+
+## Obiettivi
+
+Gli obiettivi del progetto sono:
+
+-   monitorare l’andamento degli indicatori sviluppati, offrendo agli enti soci, attraverso la predisposizione di report periodici quadrimestrali, strumenti di lettura e di comparazione dei propri indicatori clinici con quelli di altre RSA;
+
+-   costruzione partecipata di ulteriori indicatori clinici che garantiscano alle direzioni ed ai responsabili dei servizi di avere un quadro completo della loro gestione clinico-assistenziale (sia nelle tematiche già affrontate che in altre tematiche cliniche di interesse per il mondo sanitario) in relazione allo sviluppo del nuovo sistema di accreditamento;
+
+-   supportare l’implementazione di azioni volte al miglioramento dei processi gestionali sottesi agli indicatori che vengono monitorati periodicamente.
+
+::: text-center
+## Indicatori sviluppati
+:::
+
+```{r}
+
+library(shiny)
+library(bslib)
+library(bsicons)
+
+layout_column_wrap(
+  card(
+    card_header("1. CADUTE"),
+    "Un movimento non programmato di un ospite al suolo o da un piano ad un altro"
+  ),
+  card(
+    card_header("2. CONTENZIONE"),
+    "Qualsiasi dispositivo, attaccato o adiacente al corpo del paziente che egli non può rimuovere autonomamente"
+  ),
+  card(
+    card_header("3. DOLORE"),
+    "Scala utilizzata: NSR, NOPPAIN, PAINAD, VNS, VRS, scala della faccia, MPQ"
+  ),
+  card(
+    card_header("4. CURE FINE VITA"),
+    "Così come definito sulla base di scale standardizzate quali la scala di Karnofsky o la ECOG o sulla base della domanda sorprendente"
+  ),
+  card(
+    card_header("5. NUTRIZIONE"),
+    "Scale validate ed intervalli di riferimento MNA e MUST"
+  ),
+  card(
+    card_header("6. LESIONI DA PRESSIONE"),
+    "Si intende una lesione tissutale ad evoluzione necrotica che interessa la cute, il derma e gli strati sottocutanei, fino a raggiungere nei casi più gravi, il muscolo, la cartilagine e l’osso"
+  ),
+  card(
+    card_header("7. TERAPIA FARMACOLOGICA"),
+    "Errori terapeutici, polifarmacia e uso di specifiche classi di farmaci"
+  ),
+  card(
+    card_header("8. PERDITA FUNZIONALE"),
+    "Valutazione iniziale, monitoraggio e presa in carico della perdita funzionale"
+  ),
+  card(
+    card_header("9. STIPSI"),
+    "Rilevazione alvo naturale, uso di lassativi e stipsi ostinata"
+  ),
+  width = "200px",
+  heights_equal = "row"
+)
+```

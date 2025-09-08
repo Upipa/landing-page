@@ -3,15 +3,6 @@ title: "Chi siamo"
 about:
     template: marquee
 image: images/bg_chisiamo.jpg
-format:
-  html: 
-    include-in-header: 
-      - text: |
-          <style>
-            body {
-              padding-top: 0 !important;
-            }
-          </style>
 ---
 
 Il progetto *IndiCARE Salute*, promosso da U.P.I.P.A. nel 2014, è nato con l’obiettivo di introdurre nelle strutture associate sistemi di qualità orientati al miglioramento continuo.\

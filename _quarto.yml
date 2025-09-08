@@ -13,6 +13,8 @@ website:
       - text: Home
         href: index.qmd
       - about.qmd
+      - text: Progetto
+        href: progetto.qmd
     tools:
       - icon: box-arrow-in-left
         text: Accedi alla piattaforma
@@ -29,7 +31,6 @@ website:
         text: "09:00 - 13:00<br>Lunerdì - Venerdì"
   search: false
         
-
 format:
   html:
     css: styles.css
