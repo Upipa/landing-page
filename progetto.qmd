@@ -1,5 +1,7 @@
 ![](images/bg_progetto.jpg){.column-screen}
 
+:::: column-page
+
 INDICATORI E STRUMENTI DI GOVERNANCE CLINICO ASSISTENZIALE e la qualità della presa in carico
 
 ## **PREMESSA**
@@ -83,3 +85,5 @@ layout_column_wrap(
   heights_equal = "row"
 )
 ```
+
+::::

@@ -12,7 +12,8 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - about.qmd
+      - text: Chi siamo
+        href: about.qmd
       - text: Progetto
         href: progetto.qmd
     tools:
