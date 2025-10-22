@@ -1,8 +1,8 @@
 ---
-image: images/bg_chisiamo.jpg
+image: images/bg_chisiamo.png
 ---
 
-![](images/bg_chisiamo.jpg){.column-screen}
+![](images/bg_chisiamo.png){.column-screen}
 
 :::: column-page
 
