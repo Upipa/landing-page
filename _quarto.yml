@@ -1,5 +1,7 @@
 project:
   type: website
+  resources: 
+    - google4fe49397b5a959bb.html
   output-dir: docs
 
 brand:
