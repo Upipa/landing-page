@@ -2,3 +2,15 @@
 body {
     padding-top: 0 !important;
 }
+
+/* ingrandisci il logo della navbar */
+.navbar-brand img {
+  max-height: 40px;
+  width: auto;
+}
+
+/* diminuisci padding verticale del logo nella navbar */
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}

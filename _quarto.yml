@@ -8,6 +8,7 @@ brand:
 
 website:
   title: "Indicare Salute Lab"
+  favicon: logos/islab-logo.png
   navbar:
     left:
       - text: Home
@@ -16,20 +17,13 @@ website:
         href: about.qmd
       - text: Progetto
         href: progetto.qmd
-    tools:
-      - icon: box-arrow-in-left
-        text: Accedi alla piattaforma
-        href: https://upipa.shinyapps.io/IndicareSalute2/
-  page-footer:
-    left:
-      - icon: telephone
-        text: "+39 0461 39.00.25<br>indicaresalutelab@upipa.tn.it"
-    center:
-      - icon: geo-alt
-        text: "Via Sighele, 7<br>38122 TRENTO"
+      - text: Contatti
+        href: contatti.qmd
     right:
-      - icon: clock
-        text: "09:00 - 13:00<br>Lunerdì - Venerdì"
+      - text: Accedi alla piattaforma
+        icon: box-arrow-in-left
+        href: https://upipa.shinyapps.io/IndicareSalute2/
+        
   search: false
         
 format:
