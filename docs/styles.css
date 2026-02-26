@@ -14,3 +14,8 @@ body {
   padding-top: 0;
   padding-bottom: 0;
 }
+
+/* small value box font size */
+.value-box-value.small-value {
+  font-size: 1.3125rem;
+}

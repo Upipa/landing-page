@@ -31,24 +31,27 @@ con <- dbConnect(
 layout_columns(
   value_box(
     "Obiettivo",
-    "Misurare per migliorare",
+    p("Misurare per migliorare", class = "small-value"),
     showcase = bs_icon("flag"),
     theme = "secondary",
-    max_height = "150px"
+    max_height = "150px",
+    class = "small-value"
   ),
   value_box(
     "Strumento",
-    "Sistema di indicatori clinici",
+    p("Sistema di indicatori clinici", class = "small-value"),
     showcase = bs_icon("tools"),
     theme = "secondary",
-    max_height = "150px"
+    max_height = "150px",
+    class = "small-value"
   ),
   value_box(
     "Partecipanti",
-    "Strutture Long Term Care",
+    p("Strutture Long Term Care", class = "small-value"),
     showcase = bs_icon("building"),
     theme = "secondary",
-    max_height = "150px"
+    max_height = "150px",
+    class = "small-value"
   )
 )
 ```

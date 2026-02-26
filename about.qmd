@@ -66,7 +66,7 @@ layout_column_wrap(
         ),
         accordion_panel(
             "Dott. Emanuele Torri",
-            "Coordinatore della commissione per l’accreditamento, Dipartimento lavoro e welfare - Assessorato alla Salute e Politiche Sociali - Provincia Autonoma di Trento."
+            "Direttore Servizio Governance Clinica, Azienda Provinciale per i Servizi Sanitari."
         ),
         accordion_panel(
             "Dott.ssa Marianna Baggia",
@@ -77,7 +77,7 @@ layout_column_wrap(
     accordion(
         accordion_panel(
             "Dott. Marco Pagani",
-            "Medico specializzato in geriatria e gerontologia, e in medicina fisica e riabilitazione, geriatra per l’Istituto clinico Humanitas di Rozzano."
+            "Medico specializzato in geriatria e gerontologia e in Medicina fisica e riabilitazione, geriatra, responsabile scientifico del servizio."
         ),
         accordion_panel(
             "Dott. Massimo Giordani",
@@ -91,9 +91,8 @@ layout_column_wrap(
     ),
     accordion(
         accordion_panel(
-            "Dott.ssa Donatella Visentin",
-            "Dirigente medico, Dipartimento di Prevenzione in posizione di comando presso il Dipartimento
-Salute e Politiche sociali della Provincia Autonoma di Trento"
+            "Dott. Massimiliano Vario",
+            "Dipartimento Salute e Politiche Sociali"
         ),
         accordion_panel(
             "Dott.ssa Antonella Arlanch",
