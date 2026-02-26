@@ -1,6 +1,6 @@
 ![](/images/main-slider-1.jpg){.column-screen}
 
-:::: {.column-screen-inset}
+:::: {.column-page}
 
 ```{r}
 #| label: setup
@@ -32,17 +32,23 @@ layout_columns(
   value_box(
     "Obiettivo",
     "Misurare per migliorare",
-    showcase = bs_icon("flag")
+    showcase = bs_icon("flag"),
+    theme = "secondary",
+    max_height = "150px"
   ),
   value_box(
     "Strumento",
-    "Sistema di indicatori per il Long Term Care",
-    showcase = bs_icon("tools")
+    "Sistema di indicatori clinici",
+    showcase = bs_icon("tools"),
+    theme = "secondary",
+    max_height = "150px"
   ),
   value_box(
     "Partecipanti",
-    "Per tutte le strutture Long Term Care",
-    showcase = bs_icon("building")
+    "Strutture Long Term Care",
+    showcase = bs_icon("building"),
+    theme = "secondary",
+    max_height = "150px"
   )
 )
 ```

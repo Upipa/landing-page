@@ -23,13 +23,13 @@ Gli strumenti principali sono:
 
 -   **Oggi** - Le aree monitorate sono diventate 9, con un approccio che unisce attenzione ai processi ed esiti clinici con la qualità della vita delle persone accolte.
 
--   **Dal 2024** - La collaborazione con l'A.P.S.P. di Cavedine si conclude e U.P.I.P.A. sviluppa una piattaforma interna, interamente gestita, per garantire continuità e innovazione.
+-   **Dal 2024** - La collaborazione con l'A.P.S.P. di Cavedine si conclude e U.P.I.P.A. sviluppa una piattaforma interna, interamente gestita, per garantire continuità e innovazione. Il progetto IndiCARE Salute si trasforma così in *IndiCARE Salute Lab*.
 
 ## Lo sguardo al futuro
 
 Il percorso intrapreso punta non solo a raccogliere dati, ma a trasformarli in informazioni utili e comprensibili per ogni organizzazione.\
 
-Attraverso analisi condivise e strumenti di lettura sempre più efficaci, *IndiCARE Salute* intende supportare gli enti aderenti nella riflessione, nella pianificazione e nel miglioramento continuo della qualità della presa in carico.
+Attraverso analisi condivise e strumenti di lettura sempre più efficaci, *IndiCARE Salute Lab* intende supportare gli enti aderenti nella riflessione, nella pianificazione e nel miglioramento continuo della qualità della presa in carico.
 
 ```{r}
 library(shiny)
@@ -39,7 +39,12 @@ library(bslib)
 
 ```{r}
 
-actionLink("contattaci", "Contattaci", icon = icon("angle-right"))
+HTML(
+    '<a id="contattaci" href="contatti.html" class="action-button">
+        <i class="fas fa-angle-right" role="presentation" aria-label="angle-right icon"></i>
+        Contattaci
+    </a>'
+)
 ```
 
 ::: text-center
@@ -63,6 +68,10 @@ layout_column_wrap(
             "Dott. Emanuele Torri",
             "Coordinatore della commissione per l’accreditamento, Dipartimento lavoro e welfare - Assessorato alla Salute e Politiche Sociali - Provincia Autonoma di Trento."
         ),
+        accordion_panel(
+            "Dott.ssa Marianna Baggia",
+            "Area Formazione, Ricerca e Sviluppo di U.p.i.p.a."
+        ),
         open = FALSE
     ),
     accordion(
@@ -74,6 +83,10 @@ layout_column_wrap(
             "Dott. Massimo Giordani",
             "Direttore generale di U.p.i.p.a."
         ),
+        accordion_panel(
+            "Dott. Ivan Marino",
+            "Referente Area Statistico-Informatica di U.p.i.p.a."
+        ),
         open = FALSE
     ),
     accordion(
@@ -81,6 +94,10 @@ layout_column_wrap(
             "Dott.ssa Donatella Visentin",
             "Dirigente medico, Dipartimento di Prevenzione in posizione di comando presso il Dipartimento
 Salute e Politiche sociali della Provincia Autonoma di Trento"
+        ),
+        accordion_panel(
+            "Dott.ssa Antonella Arlanch",
+            "Area Formazione, Ricerca e Sviluppo di U.p.i.p.a."
         ),
         open = FALSE
     ),

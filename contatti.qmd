@@ -1,0 +1,47 @@
+![](images/bg_contatti.jpg){.column-screen}
+
+```{r}
+#| label: setup
+#| include: false
+
+library(leaflet)
+```
+
+```{r}
+
+m <- leaflet() |>
+  addTiles()
+
+lng <- 11.124276805584318
+lat <- 46.06017075818492
+
+m <- m |>
+  setView(lng, lat, zoom = 17)
+
+m |>
+  addMarkers(
+    lng,
+    lat,
+    popup = "Unione Provinciale Istituzioni per l'Assistenza Scarl, Via Scipio Sighele, 7, 38122 Trento TN"
+  )
+```
+
+::: text-center
+Indicatori E Strumenti Di Governance Clinico Assistenziale e la qualità della presa in carico
+:::
+
+## **PER QUALSIASI TIPO DI INFORMAZIONE CONTATTACI:** {.text-center}
+
+tel +39 0461 390025 fax +39 0461 397791
+
+email: [indicaresalutelab\@upipa.tn.it](mailto:indicaresalutelab@upipa.tn.it)
+
+Orario di apertura Uffici:
+
+dal lunedì al giovedì
+
+dalle ore 08.30 alle ore 13.00 e dalle ore 14.00 alle ore 16.00
+
+il venerdì
+
+dalle ore 08.30 alle ore 13.00
