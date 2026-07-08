@@ -22,7 +22,7 @@ con <- dbConnect(
   server = "upipa-acs.database.windows.net",
   database = "IndicareSaluteLab",
   uid = Sys.getenv("UID"),
-  pwd = Sys.getenv("PWD")
+  pwd = Sys.getenv("PASSWORD")
 )
 ```
 
