@@ -94,7 +94,6 @@ layout_columns(
     theme = "primary"
   )
 )
-
 ```
 
 ::: text-center
